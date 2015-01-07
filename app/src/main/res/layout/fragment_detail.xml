@@ -1,0 +1,65 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.is.radsen.alliancetechmt.DetailActivity$PlaceholderFragment"
+    android:longClickable="false">
+
+    <TableRow android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/firstname"
+            android:text="@string/first">
+        </TextView>
+        <TextView
+            android:id="@+id/firstnameval"
+            android:text="@string/na">
+        </TextView>
+    </TableRow>
+
+    <TableRow android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/lastname"
+            android:text="@string/last">
+        </TextView>
+        <TextView
+            android:id="@+id/lastnameval"
+            android:text="@string/na">
+        </TextView>
+    </TableRow>
+
+    <TableRow android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/email"
+            android:text="@string/email">
+        </TextView>
+        <TextView
+            android:id="@+id/emailval"
+            android:text="@string/na">
+        </TextView>
+    </TableRow>
+
+    <TableRow android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/address"
+            android:text="@string/address">
+        </TextView>
+        <TextView
+            android:id="@+id/addressval"
+            android:text="@string/na">
+        </TextView>
+    </TableRow>
+
+    <TableRow android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/phone"
+            android:text="@string/phone">
+        </TextView>
+        <TextView
+            android:id="@+id/phoneval"
+            android:text="@string/na">
+        </TextView>
+    </TableRow>
+
+</TableLayout>
